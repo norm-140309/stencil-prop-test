@@ -1,6 +1,6 @@
 exports.config = {
   bundles: [
-    { components: ['my-name'] }
+    { components: ['norm-dsp-list'] }
   ],
   collections: [
     { name: '@stencil/router' }

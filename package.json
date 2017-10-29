@@ -2,7 +2,7 @@
   "name": "@stencil/starter",
   "private": true,
   "version": "0.0.1",
-  "description": "Stencil Starter App",
+  "description": "Norm's Display List",
   "files": [
     "dist/"
   ],
@@ -24,7 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/ionic-team/stencil-starter.git"
   },
-  "author": "Ionic Team",
+  "author": "Norm Glomski",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ionic-team/stencil"

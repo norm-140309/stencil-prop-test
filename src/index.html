@@ -16,7 +16,11 @@
 </head>
 <body>
 
-  <my-name first="Stencil" last="JS"></my-name>
-
+  
+  <script>
+    var mydata = {"name": "Norm Glomski", "email": "nglomski@gmail.com", "interests": [{"id": 1, "title": "weight training"}, {"id": 2, "title": "javascript"}]}
+    console.log('data: ', mydata);
+  </script>
+  <norm-dsp-list name="Normando" propdata={mydata}></norm-dsp-list>
 </body>
 </html>
