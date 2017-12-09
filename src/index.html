@@ -16,11 +16,11 @@
 </head>
 <body>
 
-  
+  <norm-dsp-list name="Normando" propdata=""></norm-dsp-list>
   <script>
-    var mydata = {"name": "Norm Glomski", "email": "nglomski@gmail.com", "interests": [{"id": 1, "title": "weight training"}, {"id": 2, "title": "javascript"}]}
-    console.log('data: ', mydata);
+    var mydata = {"name": "Norm Glomski", "email": "nglomski@gmail.com", "interests": [{"id": 1, "title": "weight training"}, {"id": 2, "title": "javascript"}]};
+    var myComponent = document.querySelector('norm-dsp-list');
+    myComponent.setAttribute("propdata", JSON.stringify(mydata));
   </script>
-  <norm-dsp-list name="Normando" propdata={mydata}></norm-dsp-list>
 </body>
 </html>
